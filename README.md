@@ -5,7 +5,7 @@ The service uses [The Cat API](http://thecatapi.com/) running via a Node/[Expres
 
 The service currently allows the user to click a button and view a new Cat image displayed on a basic [React](https://reactjs.org/) frontend.
 
-![Random Cat]("https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350")
+![Random Cat](https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350)
 
 ## Running Locally
 
