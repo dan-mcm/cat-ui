@@ -33,11 +33,11 @@ npm run build
 
 * Integration of music/playlist
 
-  * Provided Suggestion: [Spotify Link](https://open.spotify.com/user/scott04069419/playlist/721IDYz5WqovHi4ozx1v36)
+  * Provided Suggestion: [Spotify Link](https://open.spotify.com/user/scott04069419/playlist/721IDYz5WqovHi4ozx1v36) ✔ Completed
 
 * Improved UI layout & design
 
-  * Integration of [Grid-Styled](https://github.com/jxnblk/grid-styled) library
+  * Integration of [Grid-Styled](https://github.com/jxnblk/grid-styled) library ✔ Completed
   * Integration of [React-Bootstrap](https://react-bootstrap.github.io/components/navbar/) Navbar
   * Footer: Credits to APIs & Services Used
 
@@ -47,4 +47,4 @@ npm run build
   * Carousel options
 
 * Hosting
-  * Host publically -> due to local server an alternate free service to Github Pages required (Heroku perhaps...)
+  * Host publically -> due to local server an alternate free service to Github Pages required (Heroku perhaps...) ✔ Completed
