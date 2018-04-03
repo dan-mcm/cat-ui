@@ -9,7 +9,7 @@ const Title = styled.div`
   margin: auto;
   padding: 2em;
   margin-bottom: 1em;
-`
+`;
 const CatPic = styled.img`
   margin: auto;
   padding: 50px;
@@ -20,24 +20,25 @@ const CatPic = styled.img`
 `;
 
 class Cat extends Component {
-  constructor(){
+  constructor() {
     super();
     this.state = {
-      url: 'https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350'
-    }
+      url:
+        "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
+    };
     this.getCat = this.getCat.bind(this);
   }
 
   getCat() {
     axios
-      .get("http://localhost:8080/cat")
-      .then(data => this.setState({url: data.data}))
+      .get("https://cat-ui.herokuapp.com/cat")
+      .then(data => this.setState({ url: data.data }))
       .catch(data => console.log(data));
   }
 
   showCat() {
     axios
-      .get("http://localhost:8080/cat")
+      .get("https://cat-ui.herokuapp.com/cat")
       .then(res => console.log(res))
       .catch(err => console.log(err));
   }
