@@ -31,14 +31,14 @@ class Cat extends Component {
 
   getCat() {
     axios
-      .get("https://cat-ui.herokuapp.com/cat")
+      .get("/cat")
       .then(data => this.setState({ url: data.data }))
       .catch(data => console.log(data));
   }
 
   showCat() {
     axios
-      .get("https://cat-ui.herokuapp.com/cat")
+      .get("/cat")
       .then(res => console.log(res))
       .catch(err => console.log(err));
   }
