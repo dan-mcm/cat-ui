@@ -2,21 +2,16 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import axios from "axios";
 
-const Title = styled.div`
-  background-color: black;
-  font-weight: bold;
-  color: white;
-  margin: auto;
-  padding: 2em;
-  margin-bottom: 1em;
-`;
 const CatPic = styled.img`
   margin: auto;
-  padding: 50px;
-  background-color: black;
-  max-width: 50vw;
-  max-height: 50vh;
-  margin-bottom: 1em;
+  background-color: white;
+  max-width: 60vw;
+  max-height: 60vh;
+  margin: 2em;
+  border-radius: 10px;
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 class Cat extends Component {
@@ -46,13 +41,7 @@ class Cat extends Component {
   render() {
     return (
       <div>
-        <Title>
-          <h2>Heres a random cat!</h2>
-        </Title>
-        <button onClick={this.getCat}>New Cat</button>
-        <br />
-        <br />
-        <CatPic src={this.state.url} />
+        <CatPic src={this.state.url} onClick={this.getCat} />
       </div>
     );
   }
