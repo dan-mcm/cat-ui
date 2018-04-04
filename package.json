@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "btoa": "^1.2.1",
     "express": "^4.16.3",
     "grid-styled": "^3.2.1",
     "react": "^16.3.0",

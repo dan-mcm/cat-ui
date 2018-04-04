@@ -41,6 +41,7 @@ class Cat extends Component {
     return (
       <div>
         <CatPic src={this.state.url} onClick={this.getCat} />
+        <div />
       </div>
     );
   }
