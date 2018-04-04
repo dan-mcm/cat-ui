@@ -18,8 +18,7 @@ class Cat extends Component {
   constructor() {
     super();
     this.state = {
-      url:
-        "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
+      url: "https://cataas.com/cat" //default image - calling another cat api!
     };
     this.getCat = this.getCat.bind(this);
   }
