@@ -12,6 +12,7 @@ const CatPic = styled.img`
   &:hover {
     cursor: pointer;
   }
+  border: 0.2em solid lightgrey;
 `;
 
 class Cat extends Component {

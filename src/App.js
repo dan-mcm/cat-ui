@@ -12,6 +12,7 @@ const Title = styled.div`
   margin: auto;
   padding: 1em;
   margin-bottom: 1em;
+  border-bottom: 0.25em solid darkorange;
 `;
 
 const Middle = styled.div``;
@@ -23,6 +24,12 @@ const Footer = styled.div`
   margin: auto;
   padding: 1em;
   margin-top: 1em;
+  border-top: 0.25em solid darkorange;
+`;
+
+const Linkage = styled.a`
+  color: darkorange;
+  text-decoration: none;
 `;
 
 const size = {
@@ -42,14 +49,12 @@ class App extends Component {
         <Flex flexWrap="wrap">
           <Box p={3} width={[1, 3 / 4]}>
             <Middle>
-              <h3>Cats Meow; Problems Later</h3>
-              <hr />
+              <h3>Cats Meow - Problems Later</h3>
               <Cat />
             </Middle>
           </Box>
           <Box p={3} width={[1, 1 / 4]}>
             <h3>Spotify Player</h3>
-            <hr />
             <br />
             <SpotifyPlayer
               uri="https://open.spotify.com/user/scott04069419/playlist/721IDYz5WqovHi4ozx1v36"
@@ -60,7 +65,14 @@ class App extends Component {
           </Box>
         </Flex>
         <Footer>
-          <p>&copy; Daniel McMahon 2018</p>
+          <p>
+            &copy; Daniel McMahon 2018
+            <br />
+            <br />
+            Powered by{" "}
+            <Linkage href="https://cataas.com">Cat as a Service</Linkage> &{" "}
+            <Linkage href="http://thecatapi.com/">The Cat API</Linkage>
+          </p>
         </Footer>
       </div>
     );
