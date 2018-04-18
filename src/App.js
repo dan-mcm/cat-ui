@@ -47,13 +47,13 @@ class App extends Component {
           <h2>Tap the Cat</h2>
         </Title>
         <Flex flexWrap="wrap">
-          <Box p={3} width={[1, 3 / 4]}>
+          <Box p={3} width={[1, 5 / 7]}>
             <Middle>
               <h3>Cats Meow - Problems Later</h3>
               <Cat />
             </Middle>
           </Box>
-          <Box p={3} width={[1, 1 / 4]}>
+          <Box p={3} width={[1, 2 / 7]}>
             <h3>Spotify Player</h3>
             <br />
             <SpotifyPlayer
