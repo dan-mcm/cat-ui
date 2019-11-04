@@ -7,6 +7,8 @@ Due to the use of Express this service has been deployed via [Heroku](https://ww
 
 The service currently allows the user to click an image and view a new Cat image loaded from an API. The frontend is displayed on a basic [React](https://reactjs.org/) frontend. An additional Spotify player has been included with random cat ASMR tracks. (generated using the [react-spotify-player](https://www.npmjs.com/package/react-spotify-player) library)
 
+Note: as this is deployed on a free-tier of Heroku there is some initial delay on the first initial click.
+
 ## Mobile
 
 ![Mobile Screenshot](/screenshots/mobile-screenshot.png)
@@ -24,7 +26,9 @@ npm run build
 npm run start
 ```
 
-An additional debugging option is available at `npm run dev` to help aid in local style formatting. Note that calls to the server will not function correctly in this mode.
+
+* An additional debugging option is available at `npm run dev` to help aid in local style formatting. Note that calls to the server will not function correctly in this mode.
+* To keep updated with security patches run `npm audit fix`
 
 ## Further Applications Ideas
 
