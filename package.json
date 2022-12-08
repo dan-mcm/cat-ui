@@ -5,7 +5,7 @@
   "dependencies": {
     "axios": "^0.18.1",
     "btoa": "^1.2.1",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "grid-styled": "^3.2.1",
     "react": "^16.3.0",
     "react-dom": "^16.3.3",
